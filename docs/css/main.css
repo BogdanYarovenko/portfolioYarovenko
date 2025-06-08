@@ -49,7 +49,7 @@ font-family: 'Poppins', sans-serif;
   --header-text: var(--white);
   --accent: var(--purple);
   --titlebeige: var(--beige);
-  --bg-image: url("/img/header-bg-dark.png");
+  --bg-image: url("../img/header-bg-dark.png");
 }
 
 ::-webkit-scrollbar {
