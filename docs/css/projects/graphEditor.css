@@ -1,5 +1,4 @@
 .graphEditor-h-wrapper {
- 
   padding: 0 30px;
   max-width: 1200px;
 }
@@ -8,7 +7,7 @@
   max-width: 350px;
   width: 100%;
   border-radius: 10px;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 .header__info {
@@ -33,7 +32,6 @@
   width: 130px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
   border: 1px solid var(--dark-border);
- 
 }
 
 .graphEditor_skill:hover {
@@ -60,9 +58,9 @@
   color: var(--beige);
 }
 
- .container.center-content {
+.container.center-content {
   padding: 40px 0;
-} 
+}
 
 .informations {
   list-style: none;
@@ -70,7 +68,7 @@
   margin-bottom: 40px;
   background: var(--dark-bg);
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   border: 1px solid var(--dark-border);
 }
 
@@ -83,15 +81,15 @@
 
 .informations li strong {
   color: var(--accent);
-} 
+}
 
 .graphEditor-layout {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 2rem; /* расстояние между колонками */
-    flex-wrap: nowrap;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem; /* расстояние между колонками */
+  flex-wrap: nowrap;
+}
 .container-graphEditor {
   display: flex;
   align-items: stretch; /* ВАЖНО: выравнивание по высоте */
@@ -103,46 +101,44 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
+
   padding: 1rem;
   border-radius: 0.75rem;
   box-sizing: border-box;
 }
 
+.graphEditor-column,
+.graphEditor-center {
+  flex: 1;
+}
 
-  .graphEditor-column,
-  .graphEditor-center {
-    flex: 1;
-  }
+.graphEditor_skills {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
 
-  .graphEditor_skills {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-  }
+.graphEditor_skill {
+  text-align: center;
+}
 
-  .graphEditor_skill {
-    text-align: center;
-  }
+.graphEditor_skills__img {
+  width: 50px;
+  height: 50px;
+}
 
-  .graphEditor_skills__img {
-    width: 50px;
-    height: 50px;
-  }
+.title-1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
 
-  .title-1 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-  }
-
-  .informations {
-    list-style: none;
-    padding: 0;
-    
-  }
-  @media (max-width: 768px) {
+.informations {
+  list-style: none;
+  padding: 0;
+}
+@media (max-width: 768px) {
   .container-graphEditor {
     flex-direction: column;
   }
