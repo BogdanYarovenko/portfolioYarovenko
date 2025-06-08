@@ -66,7 +66,7 @@
         </div>
       </div>
     </header>
-   
+
     <!--Skills section-->
     <section class="section">
       <h2 id="skills" class="title-1">Skills</h2>
@@ -231,7 +231,7 @@
           class="search-input"
         />
         <div class="filter-buttons">
-           <p class="text">Sort by </p>
+          <p class="text">Sort by</p>
           <button
             class="filter-btn active"
             data-category="all"
@@ -241,10 +241,10 @@
           </button>
           <button
             class="filter-btn"
-            data-category="school"
-            onclick="filterSelection('school')"
+            data-category="university"
+            onclick="filterSelection('university')"
           >
-            School
+            University
           </button>
           <button
             class="filter-btn"
@@ -268,16 +268,18 @@
             Web
           </button>
         </div>
+
         <ul class="projects">
-          <a href="html/graphEditor.html">
-            <li class="project" data-category="school java">
+          <!--- Add GraphVisualiser project -->
+          <a href="html/graphVisualiser.html">
+            <li class="project" data-category="university java">
               <img
                 src="img/projects/graphEditor.png"
                 alt=""
                 class="project__img"
               />
-              <h3 class="project__title">Graph Editor</h3>
-              <!--- Update Odomo TODO /> Already done  -->
+              <h3 class="project__title">Graph Visualiser</h3>
+
               <p class="project__info">University Project for Graphs.</p>
               <div class="project__text">
                 <p class="myP">Java</p>
@@ -285,13 +287,12 @@
               </div>
             </li>
           </a>
+          <!-- Odomo -->
           <a href="html/odomo.html">
-            <li class="project" data-category="school java">
+            <li class="project" data-category="university java">
               <img src="img/projects/Odomo.png" alt="" class="project__img" />
-              <h3 class="project__title">
-                Creation of the small pluviometrie station
-              </h3>
-              <!--- Update Odomo TODO /> Already done  -->
+              <h3 class="project__title">Small pluviometrie station</h3>
+
               <p class="project__info">University Project "Pluviométrie".</p>
               <div class="project__text">
                 <p class="myP">Java</p>
@@ -300,14 +301,14 @@
             </li>
           </a>
           <a href="html/lowatem.html">
-            <li class="project" data-category="school java">
+            <li class="project" data-category="university java">
               <img
-                src="img/projects/lowatem.png"
+                src="img/projects/lowatem2.png"
                 alt=""
                 class="project__img"
               />
-              <h3 class="project__title">Creation of IA Simple</h3>
-              <!--- Update Towa par Lowatem /> -->
+              <h3 class="project__title">Simple Artificial Intelligence</h3>
+              <!--- Lowatem /> -->
               <p class="project__info">University Project "Lowatem" .</p>
               <div class="project__text">
                 <p class="myP">Java</p>
@@ -316,7 +317,7 @@
             </li>
           </a>
           <a href="html/PixelWar.html">
-            <li class="project" data-category="school web">
+            <li class="project" data-category="university web">
               <img
                 src="img/projects/javascript-project.png"
                 alt=""
@@ -338,7 +339,7 @@
             </li>
           </a>
           <a href="html/bash.html">
-            <li class="project" data-category="school bash">
+            <li class="project" data-category="university bash">
               <img
                 src="img/projects/scriptBash.png"
                 alt=""
@@ -358,18 +359,17 @@
           </a>
           <!--- Add C# project /> -->
           <a href="html/academyOfDoom.html">
-            <li class="project" data-category="school c#">
+            <li class="project" data-category="university c#">
               <img
-                src="img/projects/javascript-project.png"
+                src="img/projects/academyOfDoom.png"
                 alt=""
                 class="project__img"
               />
-              <h3 class="project__title">IAcademy of Doom</h3>
+              <h3 class="project__title">Tower-defence project</h3>
               <p class="project__info">
-                University project "PixelWar".
+                University project "IAcademyOfDoom".
                 <br />
-                The project is a simple analogue of the well-known game
-                "PixelArt".
+                Is a single-player tower-defense coded in C#.
               </p>
               <div class="project__text">
                 <p class="myP">C#</p>
@@ -390,9 +390,7 @@
               />
               <h3 class="project__title">Snake Game</h3>
               <p class="project__info">
-                University project "Snake Game".
-                <br />
-                The project is a simple analogue of the well-known game "Snake".
+                Well-known Snake game implemented in Python using Pygame.
               </p>
               <div class="project__text">
                 <p class="myP">Python</p>
