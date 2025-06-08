@@ -1,0 +1,153 @@
+.academyOfDoom-h-wrapper {
+ 
+  padding: 0 30px;
+  max-width: 1200px;
+}
+
+.academyOfDoom_picture {
+  max-width: 350px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.header__info {
+  flex: 1;
+}
+
+.academyOfDoom_skills {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px 0;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.academyOfDoom_skill {
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  background-color: var(--black);
+  padding: 20px;
+  border-radius: 12px;
+  width: 130px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  border: 1px solid var(--dark-border);
+ 
+}
+
+.academyOfDoom_skill:hover {
+  transform: translateY(-6px);
+}
+
+.academyOfDoom_skill:hover .skill__title {
+  color: var(--accent);
+}
+
+.academyOfDoom_skills__img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.academyOfDoom_skill:hover .academyOfDoom_skills__img {
+  transform: scale(1.1);
+}
+
+.academyOfDoomSkillTitle {
+  font-size: 1rem;
+  color: var(--beige);
+}
+
+ .container.center-content {
+  padding: 40px 0;
+} 
+
+.informations {
+  list-style: none;
+  padding: 20px 25px;
+  margin-bottom: 40px;
+  background: var(--dark-bg);
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  border: 1px solid var(--dark-border);
+}
+
+.informations li {
+  margin-bottom: 14px;
+  font-size: 1rem;
+  color: var(--beige);
+  line-height: 1.6;
+}
+
+.informations li strong {
+  color: var(--accent);
+} 
+
+.academyOfDoom-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem; /* расстояние между колонками */
+    flex-wrap: nowrap;
+  }
+.container-academyOfDoom {
+  display: flex;
+  align-items: stretch; /* ВАЖНО: выравнивание по высоте */
+  gap: 2rem; /* Расстояние между колонками */
+}
+
+.academyOfDoom-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  padding: 1rem;
+  border-radius: 0.75rem;
+  box-sizing: border-box;
+}
+
+
+  .academyOfDoom-column,
+  .academyOfDoom-center {
+    flex: 1;
+  }
+
+  .academyOfDoom_skills {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .academyOfDoom_skill {
+    text-align: center;
+  }
+
+  .academyOfDoom_skills__img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .title-1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .informations {
+    list-style: none;
+    padding: 0;
+    
+  }
+  @media (max-width: 768px) {
+  .container-academyOfDoom {
+    flex-direction: column;
+  }
+
+  .academyOfDoom-column {
+    width: 100%;
+  }
+}

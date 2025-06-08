@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+
+  <body>
+    <!-- Navigation bar -->
+    <nav class="nav">
+      <div class="container">
+        <div class="nav-row">
+          <a href="index.html" class="logo"
+            ><strong>Yarovenko </strong>Bogdan</a
+          >
+          <ul class="nav-list">
+            <button class="dark-mode-btn dark-mode-btn--active">
+              <img
+                src="/img/icons/Sun.svg"
+                alt="light mode"
+                class="dark-mode-btn__icon"
+              />
+              <img
+                src="/img/icons/Moon.svg"
+                alt="dark mode"
+                class="dark-mode-btn__icon"
+              />
+            </button>
+            <li class="nav-list__item">
+              <a href="index.html" class="home">Home</a>
+            </li>
+
+            <li class="nav-list__item">
+              <a href="#about-it" class="nav-list__link">About it</a>
+            </li>
+            <li class="nav-list__item">
+              <a href="#contacts" class="nav-list__link">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header id="home" class="header">
+      <div class="pixelWar-h-wrapper">
+        <div class="header__content">
+          <img
+            src="/img/projects/javascript-project.png"
+            alt="Project Img"
+            class="pixelWar_picture"
+          />
+
+          <div class="header__info">
+            <h1 class="header__title">
+              <strong>JavaScript project</strong><br />
+            </h1>
+            <p class="header__text">
+              The objective of this project is to create a web page that allows
+              you to play a pixel war game using JavaScript.
+            </p>
+
+            <a
+              href="https://github.com/BogdanYarovenko/ArtificialIntelligenceSimple"
+              class="link"
+              target="_blank"
+            >
+              <button class="btn btn-large">View the project on GitHub</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Main content -->
+    <main class="section-projects" id="about-it">
+      <div class="pixelWar-center">
+        <ul class="pixelWar_skills">
+          <li class="pixelWar_skill">
+            <img
+              src="/img/icons/html.png"
+              alt="HTML"
+              class="pixelWar_skills__img"
+            />
+            <h3 class="pixelWarSkillTitle">HTML</h3>
+          </li>
+          <li class="pixelWar_skill">
+            <img
+              src="/img/icons/css.png"
+              alt="IntelliJ"
+              class="pixelWar_skills__img"
+            />
+            <h3 class="pixelWarSkillTitle">CSS</h3>
+          </li>
+          <li class="pixelWar_skill">
+            <img
+              src="/img/icons/js.png"
+              alt="JavaScript"
+              class="pixelWar_skills__img"
+            />
+            <h3 class="pixelWarSkillTitle">JavaScript</h3>
+          </li>
+          <li class="pixelWar_skill">
+            <img
+              src="/img/icons/vsCode.png"
+              alt="VS Code"
+              class="pixelWar_skills__img"
+            />
+            <h3 class="pixelWarSkillTitle">VS Code</h3>
+          </li>
+          <li class="pixelWar_skill">
+            <img
+              src="/img/icons/Swagger.png"
+              alt="Swagger"
+              class="pixelWar_skills__img"
+            />
+            <h3 class="pixelWarSkillTitle">Swagger</h3>
+          </li>
+        </ul>
+      </div>
+      <div class="container-pixelWar pixelWar-layout">
+        <!-- Левая колонка -->
+        <div class="pixelWar-column">
+          <h2 class="title-1">Requirement Specification</h2>
+          <ul class="informations">
+            <li>Analysis of existing API</li>
+            <li>
+              Creation of an attractive and user-friendly interface using
+              frontend
+            </li>
+            <li>Testing and debugging</li>
+            <li>Documentation and presentation</li>
+            <li>API Integration</li>
+          </ul>
+        </div>
+
+        <!-- Правая колонка -->
+        <div class="pixelWar-column">
+          <h2 class="title-1">Acquired skills</h2>
+          <ul class="informations">
+            <li>API Analysis and Understanding</li>
+            <li>
+              Frontend Development (HTML, CSS, JavaScript, DOM Manipulation)
+            </li>
+            <li>State and Data Management (localStorage)</li>
+            <li>Web Application Security</li>
+            <li>Debugging and Testing</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <!--Contact section-->
+    <section class="section">
+      <div class="contact-form-container">
+        <h2 id="contacts" class="title-1">Get in touch</h2>
+        <p class="section__text">
+          If you have any questions or would like to collaborate, feel free to
+          reach out!
+        </p>
+
+        <form
+          class="contact-form"
+          action="https://api.web3forms.com/submit"
+          method="POST"
+        >
+          <input
+            type="hidden"
+            name="access_key"
+            value="c07e0de6-1fdf-46eb-96c6-434cd9a0c901"
+          />
+
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            class="contact-form__input"
+            required
+          />
+
+          <input
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            class="contact-form__input"
+            required
+          />
+
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            class="contact-form__textarea"
+            required
+          ></textarea>
+
+          <button type="submit" class="contact-form__button">Submit</button>
+        </form>
+
+        <!-- External Links Below Form -->
+        <div class="contact-links">
+          <a
+            href="https://linkedin.com"
+            target="_blank"
+            class="contact-form__button link-button"
+            >LinkedIn</a
+          >
+          <a
+            href="https://github.com"
+            target="_blank"
+            class="contact-form__button link-button"
+            >GitHub</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <ul class="social">
+            <li class="social__item">
+              <a href="#!" class="social__link">
+                <img
+                  src="../img/icons/facebook-darkmode.svg"
+                  alt="Facebook"
+                  class="social-icon dark-icon"
+                />
+                <img
+                  src="../img/icons/facebook-lightmode.svg"
+                  alt="Facebook"
+                  class="social-icon light-icon"
+                />
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="https://github.com/BogdanYarovenko" class="social__link">
+                <img
+                  src="../img/icons/github-darkmode.svg"
+                  alt="GitHub"
+                  class="social-icon dark-icon"
+                />
+                <img
+                  src="../img/icons/github-lightmode.svg"
+                  alt="GitHub"
+                  class="social-icon light-icon"
+                />
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#!" class="social__link">
+                <img
+                  src="../img/icons/linkedin-darkmode.svg"
+                  alt="LinkedIn"
+                  class="social-icon dark-icon"
+                />
+                <img
+                  src="../img/icons/linkedin-lightmode.svg"
+                  alt="LinkedIn"
+                  class="social-icon light-icon"
+                />
+              </a>
+            </li>
+          </ul>
+
+          <div class="copyright">
+            <p>© 2025 Yarovenko Bogdan</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="/js/main.js"></script>
+  </body>
+</html>

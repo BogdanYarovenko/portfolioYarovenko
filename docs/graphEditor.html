@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+
+  <body>
+    <!-- Navigation bar -->
+    <nav class="nav">
+      <div class="container">
+        <div class="nav-row">
+          <a href="index.html" class="logo"
+            ><strong>Yarovenko </strong>Bogdan</a
+          >
+          <ul class="nav-list">
+            <button class="dark-mode-btn dark-mode-btn--active">
+              <img
+                src="/img/icons/Sun.svg"
+                alt="light mode"
+                class="dark-mode-btn__icon"
+              />
+              <img
+                src="/img/icons/Moon.svg"
+                alt="dark mode"
+                class="dark-mode-btn__icon"
+              />
+            </button>
+            <li class="nav-list__item">
+              <a href="index.html" class="home">Home</a>
+            </li>
+
+            <li class="nav-list__item">
+              <a href="#about-it" class="nav-list__link">About it</a>
+            </li>
+            <li class="nav-list__item">
+              <a href="#contacts" class="nav-list__link">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header id="home" class="header">
+      <div class="graphEditor-h-wrapper">
+        <div class="header__content">
+          <img
+            src="/img/projects/graphEditor.png"
+            alt="Project Img"
+            class="graphEditor_picture"
+          />
+
+          <div class="header__info">
+            <h1 class="header__title"><strong>Graph Editor</strong><br /></h1>
+            <p class="header__text">
+              A Java-based project for creating and managing graphs with a
+              simple user interface. It allows users to ...
+            </p>
+
+            <a
+              href="https://github.com/BogdanYarovenko/ProjectgraphEditor"
+              class="link"
+              target="_blank"
+            >
+              <button class="btn btn-large">View the project on GitHub</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main content -->
+    <main class="section-projects" id="about-it">
+      <div class="graphEditor-center">
+        <ul class="graphEditor_skills">
+          <li class="graphEditor_skill">
+            <img
+              src="/img/icons/java.png"
+              alt="Java"
+              class="graphEditor_skills__img"
+            />
+            <h3 class="graphEditorSkillTitle">Java</h3>
+          </li>
+          <li class="graphEditor_skill">
+            <img
+              src="/img/icons/netbeans.png"
+              alt="NetBeans"
+              class="graphEditor_skills__img"
+            />
+            <h3 class="graphEditorSkillTitle">NetBeans</h3>
+          </li>
+        </ul>
+      </div>
+      <div class="container-graphEditor graphEditor-layout">
+        <!-- Левая колонка -->
+        <div class="graphEditor-column">
+          <h2 class="title-1">Requirement Specification</h2>
+          <ul class="informations">
+            <li><strong>Java basic skills requirement </strong></li>
+            <li><strong>Respect the structure</strong> of the code...</li>
+            <li><strong>Program source code</strong> with conventions...</li>
+            <li>
+              <strong>Design</strong> document with algorithmic choices...
+            </li>
+          </ul>
+        </div>
+
+        <!-- Правая колонка -->
+        <div class="graphEditor-column">
+          <h2 class="title-1">Acquired skills</h2>
+          <ul class="informations">
+            <li>
+              <strong>Java programming:</strong> Good command of OOP and logic
+            </li>
+            <li>
+              <strong>JUnit tests:</strong> Writing and running test cases
+            </li>
+            <li>
+              <strong>Simple UI:</strong> Creating intuitive Swing interfaces
+            </li>
+            <li>
+              <strong>Debugging:</strong> Finding and fixing bugs efficiently
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <!--Contact section-->
+    <section class="section">
+      <div class="contact-form-container">
+        <h2 id="contacts" class="title-1">Get in touch</h2>
+        <p class="section__text">
+          If you have any questions or would like to collaborate, feel free to
+          reach out!
+        </p>
+
+        <form
+          class="contact-form"
+          action="https://api.web3forms.com/submit"
+          method="POST"
+        >
+          <input
+            type="hidden"
+            name="access_key"
+            value="c07e0de6-1fdf-46eb-96c6-434cd9a0c901"
+          />
+
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            class="contact-form__input"
+            required
+          />
+
+          <input
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            class="contact-form__input"
+            required
+          />
+
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            class="contact-form__textarea"
+            required
+          ></textarea>
+
+          <button type="submit" class="contact-form__button">Submit</button>
+        </form>
+
+        <!-- External Links Below Form -->
+        <div class="contact-links">
+          <a
+            href="https://linkedin.com"
+            target="_blank"
+            class="contact-form__button link-button"
+            >LinkedIn</a
+          >
+          <a
+            href="https://github.com"
+            target="_blank"
+            class="contact-form__button link-button"
+            >GitHub</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <ul class="social">
+            <li class="social__item">
+              <a href="https://github.com/BogdanYarovenko" class="social__link">
+                <img
+                  src="../img/icons/github-darkmode.svg"
+                  alt="GitHub"
+                  class="social-icon dark-icon"
+                />
+                <img
+                  src="../img/icons/github-lightmode.svg"
+                  alt="GitHub"
+                  class="social-icon light-icon"
+                />
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#!" class="social__link">
+                <img
+                  src="../img/icons/linkedin-darkmode.svg"
+                  alt="LinkedIn"
+                  class="social-icon dark-icon"
+                />
+                <img
+                  src="../img/icons/linkedin-lightmode.svg"
+                  alt="LinkedIn"
+                  class="social-icon light-icon"
+                />
+              </a>
+            </li>
+          </ul>
+
+          <div class="copyright">
+            <p>© 2025 Yarovenko Bogdan</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
