@@ -109,7 +109,7 @@
   background-position: center center;
   background-color: var(--dark-bg);
   color: var(--header-text);
-  padding: 40px 70px;
+  padding: 120px 70px 40px;
 }
 
 .header__wrapper {
