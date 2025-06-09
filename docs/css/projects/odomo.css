@@ -139,11 +139,69 @@
   padding: 0;
 }
 @media (max-width: 768px) {
-  .container-odomo {
+  .odomo-layout {
     flex-direction: column;
+    gap: 1.5rem;
   }
 
   .odomo-column {
     width: 100%;
+    padding: 0;
+  }
+
+  .header__content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .odomo_picture {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .header__info {
+    width: 100%;
+  }
+
+  .odomo_skills {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 20px 0;
+  }
+
+  .odomo_skill {
+    width: 100%;
+    max-width: 250px;
+    padding: 15px;
+  }
+
+  .odomo_skills__img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .contact-form-container {
+    padding: 0 20px;
+  }
+
+  .contact-links {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .contact-form__button {
+    width: 100%;
+  }
+
+  .title-1 {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  .informations {
+    padding: 20px;
   }
 }
