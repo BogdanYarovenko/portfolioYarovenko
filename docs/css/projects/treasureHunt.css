@@ -1,0 +1,192 @@
+.treasureHunt-h-wrapper {
+  padding: 0 30px;
+  max-width: 1200px;
+}
+
+.treasureHunt_picture {
+  max-width: 350px;
+
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.header__info {
+  flex: 1;
+}
+
+.treasureHunt_skills {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px 0;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.treasureHunt_skill {
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  background-color: var(--black);
+  padding: 20px;
+  border-radius: 12px;
+  width: 130px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  border: 1px solid var(--dark-border);
+}
+
+.treasureHunt_skill:hover {
+  transform: translateY(-6px);
+}
+
+.treasureHunt_skill:hover .skill__title {
+  color: var(--accent);
+}
+
+.treasureHunt_skills__img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.treasureHunt_skill:hover .treasureHunt_skills__img {
+  transform: scale(1.1);
+}
+
+.treasureHuntSkillTitle {
+  font-size: 1rem;
+  color: var(--beige);
+}
+
+.container.center-content {
+  padding: 40px 0;
+}
+
+.treasureHunt-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem; /* расстояние между колонками */
+  flex-wrap: nowrap;
+}
+
+.container-treasureHunt {
+  display: flex;
+  align-items: stretch; /* ВАЖНО: выравнивание по высоте */
+  gap: 2rem; /* Расстояние между колонками */
+}
+
+.treasureHunt-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 1rem;
+  border-radius: 0.75rem;
+  box-sizing: border-box;
+}
+
+.treasureHunt-column,
+.treasureHunt-center {
+  flex: 1;
+}
+
+.treasureHunt_skills {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.treasureHunt_skill {
+  text-align: center;
+}
+
+.treasureHunt_skills__img {
+  width: 50px;
+  height: 50px;
+}
+
+.title-1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.informations {
+  list-style: none;
+  padding: 0;
+}
+@media (max-width: 768px) {
+  .treasureHunt-layout {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .treasureHunt-column {
+    width: 100%;
+    padding: 0;
+  }
+
+  .header__content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .treasureHunt_picture {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .header__info {
+    width: 100%;
+  }
+
+  .treasureHunt_skills {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 20px 0;
+  }
+
+  .treasureHunt_skill {
+    width: 100%;
+    max-width: 250px;
+    padding: 15px;
+  }
+
+  .treasureHunt_skills__img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .contact-form-container {
+    padding: 0 20px;
+  }
+
+  .contact-links {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .contact-form__button {
+    width: 100%;
+  }
+
+  .title-1 {
+    font-size: 0.5rem;
+    text-align: center;
+    padding: 0 16px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  .informations {
+    padding: 20px;
+  }
+}
