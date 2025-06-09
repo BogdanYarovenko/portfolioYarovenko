@@ -32,7 +32,7 @@ font-family: 'Poppins', sans-serif;
   --titlebeige: #222222;
   --dark-mode-btn-bg: #f5f5f5;
 
-  --bg-image: url("/img/header-bg-light.png");
+  --bg-image: url("../img/header-bg-light.png");
 }
 
 .dark {
