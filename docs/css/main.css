@@ -601,9 +601,13 @@ body {
   }
 
   .title-1 {
-    font-size: 40px;
-    margin-bottom: 20px;
-    padding: 40px;
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 0 16px; /* 👈 добавим горизонтальные отступы */
+    box-sizing: border-box;
+    word-wrap: break-word; /* 👈 если заголовок длинный */
+    margin: 0 auto; /* 👈 центрируем */
+    max-width: 100%; /* 👈 защитим от переполнения */
   }
 
   .title-2 {
